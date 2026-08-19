@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-forest-charcoal text-warm-ivory font-sans antialiased overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Base selection color */
+::selection {
+  @apply bg-muted-clay/30 text-warm-ivory;
+}
+
+/* Custom Marker CSS - Hide default native pointer ONLY when the custom one is active */
+/* But the user said: "Keep the native browser cursor visible. Add a tiny custom diamond / four-point marker offset slightly from the native pointer." */
+/* We will NOT hide the native cursor. */

@@ -97,7 +97,7 @@ export default function Approach() {
               
               <motion.img 
                 style={{ y: (shouldReduceMotion || isMobile) ? 0 : imageY }}
-                src="/luxury_hero_bg.webp" 
+                src="/sai-gaurav-hero.webp" 
                 alt="Architectural details"
                 className="w-full h-full object-cover scale-[1.1] opacity-95 saturate-[0.85] contrast-[1.1]"
                 draggable="false"

@@ -41,7 +41,7 @@ export default function Hero() {
       {/* Image Background */}
       <div className="absolute inset-0 w-full h-full z-0 bg-forest-charcoal">
         <img
-          src="/luxury_hero_bg.webp"
+          src="/sai-gaurav-hero.webp"
           alt="Premium Real Estate"
           className="w-full h-full object-cover object-[85%_center] md:object-[75%_center] lg:object-center saturate-[0.85] contrast-[1.1]"
         />

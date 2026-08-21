@@ -45,7 +45,7 @@ export default function FeaturedProperties() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true, margin: isMobile ? "-20px" : "-100px" }}
                 transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-                src="/luxury_hero_bg.webp" 
+                src="/sai-gaurav-hero.webp" 
                 alt="Premium architectural property"
                 className="w-full h-full object-cover opacity-95 saturate-[0.9] contrast-[1.1] transition-transform duration-[1.5s] ease-out hover:scale-[1.02]"
                 draggable="false"
@@ -64,7 +64,7 @@ export default function FeaturedProperties() {
             >
               <div className="absolute inset-0 bg-forest-charcoal/20 mix-blend-multiply z-10 pointer-events-none" />
               <img 
-                src="/luxury_hero_bg.webp" 
+                src="/sai-gaurav-hero.webp" 
                 alt="Architectural material detail" 
                 className="w-full h-full object-cover saturate-[0.85] contrast-125"
               />

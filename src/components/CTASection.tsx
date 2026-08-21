@@ -52,7 +52,7 @@ export default function CTASection() {
               hidden: { opacity: 0, y: 15 },
               show: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] } }
             }}
-            className="font-sans text-[0.65rem] tracking-[0.3em] text-warm-ivory/80 uppercase mb-4"
+            className="font-sans text-xs tracking-[0.3em] text-warm-ivory/80 uppercase mb-4"
           >
             Sai Gaurav Real Estate
           </motion.span>
@@ -74,7 +74,7 @@ export default function CTASection() {
               hidden: { opacity: 0, y: 10 },
               show: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] } }
             }}
-            className="font-sans text-[0.55rem] tracking-widest text-muted-clay uppercase mb-12"
+            className="font-sans text-xs tracking-widest text-muted-clay uppercase mb-12"
           >
             Quthbullapur · Hyderabad
           </motion.span>

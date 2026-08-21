@@ -42,7 +42,7 @@ export default function Approach() {
                   hidden: { opacity: 0, y: 10 },
                   show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
                 }}
-                className="block font-sans text-[0.65rem] tracking-[0.3em] text-forest-charcoal/50 uppercase mb-10"
+                className="block font-sans text-xs tracking-[0.3em] text-forest-charcoal/50 uppercase mb-10"
               >
                 01 — Our Approach
               </motion.span>

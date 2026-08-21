@@ -77,7 +77,7 @@ export default function Location() {
                   hidden: { opacity: 0, y: 10 },
                   show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
                 }}
-                className="block font-sans text-[0.65rem] tracking-[0.3em] text-forest-charcoal/50 uppercase mb-8"
+                className="block font-sans text-xs tracking-[0.3em] text-forest-charcoal/50 uppercase mb-8"
               >
                 06 — Location
               </motion.span>
@@ -121,7 +121,7 @@ export default function Location() {
                   href="https://maps.google.com/?q=Sai+Gaurav+Real+Estate+Quthbullapur+Hyderabad"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center space-x-4 border border-forest-charcoal/20 px-6 md:px-8 py-4 font-sans text-[0.65rem] tracking-[0.2em] text-forest-charcoal uppercase transition-all duration-300 hover:border-muted-clay hover:text-muted-clay bg-transparent"
+                  className="group inline-flex items-center space-x-4 border border-forest-charcoal/20 px-6 md:px-8 py-4 font-sans text-xs tracking-[0.2em] text-forest-charcoal uppercase transition-all duration-300 hover:border-muted-clay hover:text-muted-clay bg-transparent"
                 >
                   <span>Get Directions</span>
                   <motion.span 

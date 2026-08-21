@@ -16,7 +16,7 @@ export default function AboutCompany() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: isMobile ? "-20px" : "-100px" }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="block font-sans text-[0.65rem] tracking-[0.3em] text-warm-ivory/50 uppercase mb-12 lg:mb-24 text-center lg:text-left"
+          className="block font-sans text-xs tracking-[0.3em] text-warm-ivory/50 uppercase mb-12 lg:mb-24 text-center lg:text-left"
         >
           04 — Experience
         </motion.span>
@@ -40,14 +40,14 @@ export default function AboutCompany() {
           </div>
           
           {/* RIGHT SIDE TEXT (Col 8-12) */}
-          <div className="lg:col-span-5 flex flex-col justify-center text-center lg:text-left mt-8 lg:mt-32">
+          <div className="lg:col-span-5 flex flex-col justify-center text-center lg:text-left mt-8 lg:mt-12">
             {/* 0.45 */}
             <motion.h3 
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: isMobile ? "-20px" : "-100px" }}
               transition={{ duration: 0.8, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
-              className="font-serif text-3xl md:text-5xl lg:text-6xl text-warm-ivory uppercase tracking-[0.1em] leading-[1.1] mb-6 lg:mb-8"
+              className="font-serif text-3xl md:text-5xl lg:text-6xl text-warm-ivory tracking-[0.1em] leading-[1.1] mb-6 lg:mb-8"
             >
               Years in <br className="hidden lg:block"/> Business
             </motion.h3>
@@ -72,7 +72,7 @@ export default function AboutCompany() {
               className="flex flex-col items-center lg:items-start"
             >
               <div className="w-8 h-[1px] bg-muted-clay mb-6 hidden lg:block" />
-              <span className="font-sans text-[0.55rem] tracking-[0.2em] text-warm-ivory/50 uppercase leading-loose">
+              <span className="font-sans text-xs tracking-[0.2em] text-warm-ivory/50 uppercase leading-loose">
                 Sai Gaurav Real Estate <br className="lg:hidden" />
                 <span className="hidden lg:inline"> · </span>Quthbullapur · Hyderabad
               </span>

@@ -55,7 +55,7 @@ export default function Navigation() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.80, duration: 0.5, ease: "easeOut" }}
-              className="font-sans text-[0.55rem] tracking-[0.3em] text-muted-sage uppercase mt-1"
+              className="font-sans text-xs tracking-[0.3em] text-muted-sage uppercase mt-1"
             >
               Real Estate
             </motion.span>
@@ -93,6 +93,7 @@ export default function Navigation() {
               className="hidden md:flex items-center space-x-2 font-sans text-xs tracking-widest text-warm-ivory uppercase hover:text-muted-sage transition-colors duration-300 group"
             >
               <span>Let's Talk</span>
+              <span className="inline-block transition-transform duration-500 ease-out group-hover:translate-x-1" aria-hidden="true">→</span>
             </a>
             
             {/* Mobile Toggle */}

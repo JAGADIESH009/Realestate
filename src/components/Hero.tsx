@@ -92,7 +92,7 @@ export default function Hero() {
             <a 
               href="#properties"
               data-cursor="cta"
-              className="group inline-flex items-center space-x-3 bg-warm-ivory/5 backdrop-blur-sm border border-warm-ivory/20 px-8 py-4 font-sans text-xs tracking-widest uppercase transition-all duration-500 hover:bg-warm-ivory hover:text-forest-charcoal text-warm-ivory"
+              className="group inline-flex items-center space-x-3 bg-warm-ivory/10 backdrop-blur-sm border border-warm-ivory/40 px-8 py-4 font-sans text-xs tracking-widest transition-all duration-500 hover:bg-warm-ivory hover:text-forest-charcoal text-warm-ivory"
             >
               <span>Explore Collection</span>
             </a>
@@ -106,11 +106,11 @@ export default function Hero() {
           transition={{ delay: 2.4, duration: 1 }}
           className="flex justify-between items-end w-full pb-4"
         >
-          <span className="font-sans text-[0.55rem] tracking-[0.2em] text-warm-ivory/60 uppercase">
+          <span className="font-sans text-xs tracking-[0.2em] text-warm-ivory/50 uppercase">
             Quthbullapur · Hyderabad
           </span>
           <div className="flex flex-col items-center space-y-2">
-            <span className="font-sans text-[0.5rem] tracking-widest text-warm-ivory/40 uppercase rotate-90 origin-right translate-x-3">Scroll</span>
+            <span className="font-sans text-xs tracking-widest text-warm-ivory/50 uppercase rotate-90 origin-right translate-x-3">Scroll</span>
             <div className="w-[1px] h-12 bg-gradient-to-b from-warm-ivory/40 to-transparent" />
           </div>
         </motion.div>

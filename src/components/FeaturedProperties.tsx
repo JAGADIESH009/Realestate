@@ -79,7 +79,7 @@ export default function FeaturedProperties() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: isMobile ? "-20px" : "-100px" }}
               transition={{ duration: 0.8 }}
-              className="block font-sans text-[0.65rem] tracking-[0.3em] text-warm-ivory/50 uppercase mb-8 lg:mb-12"
+              className="block font-sans text-xs tracking-[0.3em] text-warm-ivory/50 uppercase mb-8 lg:mb-12"
             >
               05 — Property Collection
             </motion.span>

@@ -48,7 +48,7 @@ export default function Services() {
             style={{ opacity, y: (shouldReduceMotion || isMobile) ? 0 : y }}
             className="flex flex-col"
           >
-            <span className="block font-sans text-[0.65rem] tracking-[0.3em] text-warm-ivory/50 uppercase mb-8">
+            <span className="block font-sans text-xs tracking-[0.3em] text-warm-ivory/50 uppercase mb-8">
               02 — Expertise
             </span>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-warm-ivory uppercase">
@@ -85,13 +85,13 @@ export default function Services() {
               </div>
               
               {/* Content */}
-              <div className="flex-1 md:w-3/6 relative z-10 transition-transform duration-[0.8s] ease-[0.16,1,0.3,1] group-hover:translate-x-4 md:pl-0 pl-2">
-                <h3 className="font-sans text-xl md:text-3xl tracking-[0.1em] uppercase text-warm-ivory transition-all duration-[0.8s]">
+              <div className="flex-1 md:w-2/6 relative z-10 transition-transform duration-[0.8s] ease-[0.16,1,0.3,1] group-hover:translate-x-4 md:pl-0 pl-2">
+                <h3 className="font-sans text-xl md:text-3xl tracking-[0.1em] text-warm-ivory transition-all duration-[0.8s]">
                   {service.title}
                 </h3>
               </div>
 
-              <div className="md:w-2/6 mt-4 md:mt-0 relative z-10 transition-transform duration-[0.8s] ease-[0.16,1,0.3,1] group-hover:translate-x-6 md:pl-0 pl-2 pr-8">
+              <div className="md:w-3/6 mt-4 md:mt-0 relative z-10 transition-transform duration-[0.8s] ease-[0.16,1,0.3,1] group-hover:translate-x-6 md:pl-0 pl-2 pr-8">
                 <p className="font-sans text-sm text-warm-ivory/50 font-light leading-relaxed max-w-sm transition-colors duration-500 group-hover:text-warm-ivory/80">
                   {service.description}
                 </p>

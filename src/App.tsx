@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Approach from './components/Approach';
 import FeaturedProperties from './components/FeaturedProperties';
+import AIAssistant from './components/AIAssistant/AIAssistant';
 import AboutCompany from './components/AboutCompany';
 import Services from './components/Services';
 import Location from './components/Location';
@@ -44,6 +45,7 @@ function App() {
           <Location />
           <CTASection />
           <Footer />
+          <AIAssistant />
         </div>
       </main>
       

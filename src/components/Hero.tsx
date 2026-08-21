@@ -43,7 +43,7 @@ export default function Hero() {
         <img
           src="/luxury_hero_bg.webp"
           alt="Premium Real Estate"
-          className="w-full h-full object-cover object-center saturate-[0.85] contrast-[1.1]"
+          className="w-full h-full object-cover object-[85%_center] md:object-[75%_center] lg:object-center saturate-[0.85] contrast-[1.1]"
         />
         
         {/* Subtle deep forest / cinematic contrast grade */}

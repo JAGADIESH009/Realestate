@@ -38,19 +38,13 @@ export default function Hero() {
         </motion.span>
       </motion.div>
 
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/location_context.jpg"
+      {/* Image Background */}
+      <div className="absolute inset-0 w-full h-full z-0 bg-forest-charcoal">
+        <img
+          src="/luxury_hero_bg.webp"
+          alt="Premium Real Estate"
           className="w-full h-full object-cover object-center saturate-[0.85] contrast-[1.1]"
-        >
-          <source src="/vn_4k_30.mp4" type="video/mp4" />
-        </video>
+        />
         
         {/* Subtle deep forest / cinematic contrast grade */}
         <div className="absolute inset-0 bg-forest-charcoal/30 mix-blend-multiply pointer-events-none" />

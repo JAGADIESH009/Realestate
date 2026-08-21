@@ -28,7 +28,7 @@ export default function CTASection() {
             }}
             src="/final_cta_architecture.jpg"
             alt="Sophisticated modern property at dusk"
-            className="w-full h-full object-cover contrast-[1.1] saturate-[0.85]"
+            className="absolute inset-0 w-full h-full object-cover contrast-[1.1] saturate-[0.85]"
             draggable="false"
             onContextMenu={(e) => e.preventDefault()}
           />

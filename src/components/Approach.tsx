@@ -99,7 +99,7 @@ export default function Approach() {
                 style={{ y: (shouldReduceMotion || isMobile) ? 0 : imageY }}
                 src="/about_architecture.jpg" 
                 alt="Architectural details"
-                className="w-full h-full object-cover scale-[1.1] opacity-95 saturate-[0.85] contrast-[1.1]"
+                className="absolute inset-0 w-full h-full object-cover scale-[1.1] opacity-95 saturate-[0.85] contrast-[1.1]"
                 draggable="false"
                 onContextMenu={(e) => e.preventDefault()}
               />

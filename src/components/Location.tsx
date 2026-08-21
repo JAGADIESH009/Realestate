@@ -49,7 +49,7 @@ export default function Location() {
                   style={{ y: (shouldReduceMotion || isMobile) ? 0 : imageY }}
                   src="/location_context.jpg" 
                   alt="Hyderabad architectural context"
-                  className="w-full h-full object-cover scale-[1.1] opacity-95 saturate-[0.85] contrast-[1.15]"
+                  className="absolute inset-0 w-full h-full object-cover scale-[1.1] opacity-95 saturate-[0.85] contrast-[1.15]"
                   draggable="false"
                   onContextMenu={(e) => e.preventDefault()}
                 />

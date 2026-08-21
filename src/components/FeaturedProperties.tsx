@@ -47,7 +47,7 @@ export default function FeaturedProperties() {
                 transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
                 src="/property_collection_main.jpg" 
                 alt="Premium architectural property"
-                className="w-full h-full object-cover opacity-95 saturate-[0.9] contrast-[1.1] transition-transform duration-[1.5s] ease-out hover:scale-[1.02]"
+                className="absolute inset-0 w-full h-full object-cover opacity-95 saturate-[0.9] contrast-[1.1] transition-transform duration-[1.5s] ease-out hover:scale-[1.02]"
                 draggable="false"
                 onContextMenu={(e) => e.preventDefault()}
               />
@@ -66,7 +66,7 @@ export default function FeaturedProperties() {
               <img 
                 src="/property_collection_detail.jpg" 
                 alt="Architectural material detail" 
-                className="w-full h-full object-cover saturate-[0.85] contrast-125"
+                className="absolute inset-0 w-full h-full object-cover saturate-[0.85] contrast-125"
               />
             </motion.div>
           </div>

@@ -11,7 +11,7 @@ export const properties = [
     availability: 'Available',
     amenities: ['Infinity Pool', 'Home Theatre', 'Smart Home System', 'Private Garden'],
     description: 'A masterpiece of modern glass architecture featuring panoramic city views and seamless indoor-outdoor luxury living.',
-    image: '/sai-gaurav-hero.webp'
+    image: '/property_collection_main.jpg'
   },
   {
     id: 'prop-2',
@@ -25,7 +25,7 @@ export const properties = [
     availability: 'Available',
     amenities: ['Private Terrace', 'Concierge', 'Wine Cellar', 'Spa Access'],
     description: 'Elevated luxury living with bespoke finishes, expansive entertainment spaces, and absolute privacy.',
-    image: '/sai-gaurav-hero.webp'
+    image: '/property_collection_detail.jpg'
   },
   {
     id: 'prop-3',
@@ -39,6 +39,6 @@ export const properties = [
     availability: 'Under Construction',
     amenities: ['Central Courtyard', 'Double-height Ceilings', 'Solar Integrated', 'Guest Annex'],
     description: 'Traditional sensibilities meet brutalist modernism in this spacious family estate.',
-    image: '/sai-gaurav-hero.webp'
+    image: '/properties_abstract.jpg'
   }
 ];

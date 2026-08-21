@@ -26,7 +26,7 @@ export default function CTASection() {
               hidden: { scale: 1.04, opacity: 0 },
               show: { scale: 1, opacity: 0.9, transition: { duration: 1.5, delay: 0.1, ease: "easeOut" } }
             }}
-            src="/sai-gaurav-hero.webp"
+            src="/final_cta_architecture.jpg"
             alt="Sophisticated modern property at dusk"
             className="w-full h-full object-cover contrast-[1.1] saturate-[0.85]"
             draggable="false"
